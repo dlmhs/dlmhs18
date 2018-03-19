@@ -15,10 +15,12 @@ highlighter: rogue
 
 
 ### content configuration ###
-title:       "IPDRM16: First International Workshop on Emerging Parallel and Distributed Runtime Systems and Middleware"
-keywords:    "hpc, user, Runtimes, Middleware, ipdps16, ipdrm16, ipdrm, supercomputing"
-description: "First workshop on Parallel and distributed runtiems and middleware"
-source_link: "https://github.com/ipdrm16/ipdrm16.github.io"
+title:       "DLMHS-18: The First International Workshop on Large-Scale Deep Learning on Modern Heterogeneous Supercomputers"
+keywords:    "hpc, deep learning, supercomputers, heterogeneuous, GPUs, dlmhs18, dlmhs-18, dlmhs, FPGA, Xeon-Phi"
+description: "The first international workshop on large-scale deep learning on modern heterogeneous supercomputers"
+
+
+source_link: "https://github.com/dlmhs/dlmhs18.github.io"
 #favicon:     "img/favicon.ico"
 #touch_icon:  "img/apple-touch-icon.png"
 google_analytics_key: UA-55665759-3
