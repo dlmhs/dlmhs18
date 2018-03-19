@@ -8,7 +8,7 @@ safe: false
 ### site serving configuration ###
 exclude: [CNAME, README.md, .gitignore, bck]
 permalink: / ## disables post output
-timezone: null
+timezone: US
 lsi: false
 markdown: kramdown 
 highlighter: rogue 
