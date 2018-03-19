@@ -1,0 +1,44 @@
+                              CALL FOR ABSTRACTS:
+                          The First International Workshop on
+ Large-Scale Deep Learning on Modern Heterogeneous Supercomputers (DLMHS-18)
+                           June 12th, 2018, Beijing
+
+                             Held in conjunction with
+             The 32nd ACM International Conference on Supercomputing 
+                                    (ICS’18)
+
+The last decade has seen blooming emergence in deep learning. With ever-increased problem size to resolve and data size to process, deep learning becomes extremely computation demanding. As a result, migrating deep learning algorithms and applications on modern supercomputers, especially heterogeneous supercomputers that incorporate special accelerators such as GPUs, Xeon-Phi, FPGA, TPU, ASIC, etc. becomes a trend.  
+
+Scope:
+
+This workshop will emphasize novel, disruptive research ideas over incremental 
+advances. We will solicit papers on topics including, but not limited to, the 
+following areas:
+
+In this workshop, we invite novel and recent works including, but not limited to, the following topics:
+* Scalable deep learning algorithms and application 
+* Heterogeneous programming models and interfaces for deep learning
+* Special compilation techniques for deep-learning on heterogeneous supercomputers
+* Practical experience and evaluations on accelerator interconnects (GPU, FPGA, Xeon-Phi)
+* Memory and Cache optimization techniques for deep learning applications
+* Power reduction techniques for deep-learning applications
+* Performance Modeling for deep learning applications on supercomputers
+* Potential Opportunities for HPC from deep learning type of applications, e.g., gradient-descent enabled approximate computing
+* Potential Challenges for scaling current deep learning algorithms on supercomputers (e.g., communication bottlenecks, load balancing, etc)
+
+Paper Submissions:
+
+As a 1st time workshop, we decide to make it discussion oriented this year. We invite 2-page double-column submission on novel and recent published works (kindly follow the ACM proceeding sigconf template https://www.acm.org/publications/proceedings-template, using 10-point font). We also welcome unfinished novel ideas. Submission will not appear in proceedings so it can be further developed and submitted to a formal conference or journals. Finished or published works will be given 25 minutes to fully describe their contributions while unfinished work and novel ideas will be given 10 minutes to motivate the audience. 
+
+Submissions will be accepted through the Easychair system at https://easychair.org/conferences/?conf=dlmhs18
+
+Important Dates:
+
+* Abstract (2 pages max):  
+* Deadline: May. 1st, 2018 (AOE)
+* Author notification: May 13th, 2018 (AOE)
+
+Workshop Co-Chairs:
+
+Ang Li, Pacific Northwest National Lab       ang.li@pnnl.gov
+Jidong Zhai, Tsinghua University             zhaijidong@tsinghua.edu.cn
