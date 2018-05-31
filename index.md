@@ -1,3 +1,151 @@
-## Source Code for DLMHS 
-Based on SC HURST15 and IPDPS IPDRM-16 Workshop template.
+---
+title: "DLMHS 2018"
+bg: white
+color: black
+style: left
+fa-icon: list-ul
+layout: default
+icon-title: true
+---
+  
+<div style="text-align:center;">
+  <span class="fa-stack subtlecircle" style="font-size:64px; background:rgba(0,128,0,0.1)">
+    <i class="fa fa-circle fa-stack-2x text-white"></i>
+    <i class="fa fa-server fa-stack-1x text-green"></i>
+  </span>
+</div>
+
+## June 12, 2018, Beijing, China.
+
+<div style="text-align:center;">
+  <a href="http://ics2018.ict.ac.cn/"><img width="640px" src="img/ICS-18-logo-1.png"/></a>
+  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+</div>
+
+#### Held in conjunction with the 32nd ACM International Conference on Supercomputing([ACM ICS-2018](http://ics2018.ict.ac.cn/)), June 12-15, 2018, Beijing, China.
+
+<div style="text-align:center;">
+  <p>
+  <font style="color:red;font-size:18pt;font-face:bold;">
+  Submission deadline for abstract is May 1st, 2018 (AOE)
+  </font>
+  </p>
+</div>
+
+### Overview
+The last decade has seen blooming emergence in deep learning. With ever-increased problem size to resolve and data size to process, deep learning becomes extremely computation demanding. As a result, migrating deep learning algorithms and applications on modern supercomputers, especially heterogeneous supercomputers that incorporate special accelerators such as GPUs, Xeon-Phi, FPGA, TPU, ASIC, etc. becomes a trend. 
+
+
+<div style="text-align:center;">
+  <p>
+    <a href="dlmhs-cfp.txt">
+      <i class="fa fa-file-text-o">&nbsp;<b>Download the DLMHS 18 CFP </b></i>
+    </a>
+  </p>
+</div>
+
+## Topics
+
+This workshop will emphasize novel, disruptive research ideas over incremental 
+advances. We will solicit papers on topics including, but not limited to, the 
+following areas:
+
+In this workshop, we invite novel and recent works including, but not limited to, the following topics:
+* Scalable deep learning algorithms and application 
+* Heterogeneous programming models and interfaces for deep learning
+* Special compilation techniques for deep-learning on heterogeneous supercomputers
+* Practical experience and evaluations on accelerator interconnects (GPU, FPGA, Xeon-Phi)
+* Memory and Cache optimization techniques for deep learning applications
+* Power reduction techniques for deep-learning applications
+* Performance Modeling for deep learning applications on supercomputers
+* Potential Opportunities for HPC from deep learning type of applications, e.g., gradient-descent enabled approximate computing
+* Potential Challenges for scaling current deep learning algorithms on supercomputers (e.g., communication bottlenecks, load balancing, etc)
+
+
+## Submissions
+
+As a brand new workshop, we decide to make it discussion oriented this year. We invite 2-page double-column submission on novel and recent published works. We also welcome unfinished novel ideas. Please follow the ACM proceeding sigconf template ([https://www.acm.org/publications/proceedings-template](https://www.acm.org/publications/proceedings-template)) using 10-point font for submission. Kindly note that the submission will not appear in proceedings so it can be further developed and submitted to a formal conference or journals. Finished or published works will be given 25 minutes to fully describe their contributions while unfinished work and novel ideas will be given 10 minutes to motivate the audience. 
+
+Submission will be accepted through the EasyChair System through this link: ([https://easychair.org/conferences/?conf=dlmhs18](https://easychair.org/conferences/?conf=dlmhs18))
+
+## Important Dates
+
+* Abstract (2 pages max):  
+* Deadline: May. 1st, 2018 (AOE)
+* Author notification: May 13th, 2018 (AOE)
+
+All dates are Anywhere on Earth (AOE)
+
+## General Chairs
+
+* Ang Li, Pacific Northwest National Laboratory, USA
+* Jidong Zhai, Tsinghua University, China
+
+## Program Committee
+
+* Shuaiwen Leon Song, Pacific Northwest National Laboratory, USA
+* Xu Liu, College of William and Mary, USA
+* Weifeng Liu, Norwegian University of Science and Technology, Norway
+* Guoyang Chen, Qualcomm, USA
+* Jiajia Li, Georgia Tech University, USA
+* Dingwen Tao, Brookhaven National Laboratory, USA
+* Shuai Che, AMD Research, USA 
+* Qiang Guan, Kent State University, USA
+* Yun Liang, Peking University, China
+* Akash Kumar, Dresden University of Technology, Germany
+* Wenfeng Zhao, University of Minnesota, USA
+* Biao Sun, Tianjin University, China
+* Joseph Manzano, Pacific Northwest National Laboratory, USA
+
+
+
+
+## Workshop Program
+
+
+
+## Keynote-1
+
+### Title
+
+Parallel and Distributed Deep Learning and HPC
+
+### Speaker
+
+Prof. Torsten Hoefler, ETH Zurich
+
+
+### Abstract
+
+Deep Neural Networks (DNNs) are becoming an important tool in modern computing applications. Accelerating their training is a major challenge and techniques range from distributed algorithms to low-level circuit design. In this overview talk, we describe the problem from a theoretical perspective, followed by approaches for its parallelization. Specifically, we present trends in DNN architectures and the resulting implications on parallelization strategies. We discuss the different types of concurrency in DNNs; synchronous and asynchronous stochastic gradient descent; distributed system architectures; communication schemes; and performance modeling. Based on these approaches, we extrapolate potential directions for parallelism in deep learning.
+
+### Speaker Bio
+
+Torsten is an Associate Professor of Computer Science at ETH Zürich, Switzerland. Before joining ETH, he led the performance modeling and simulation efforts of parallel petascale applications for the NSF-funded Blue Waters project at NCSA/UIUC.  He is also a key member of the Message Passing Interface (MPI) Forum where he chairs the "Collective Operations and Topologies" working group.  Torsten won best paper awards at the ACM/IEEE Supercomputing Conference SC10, SC13, SC14, EuroMPI'13, HPDC'15, HPDC'16, IPDPS'15, and other conferences.  He published numerous peer-reviewed scientific conference and journal articles and authored chapters of the MPI-2.2 and MPI-3.0 standards. He received the Latsis prize of ETH Zurich as well as an ERC starting grant in 2015. His research interests revolve around the central topic of "Performance-centric System Design" and include scalable networks, parallel programming techniques, and performance modeling.  Additional information about Torsten can be found on his homepage at htor.inf.ethz.ch.
+
+
+## Keynote-2
+
+### Title
+
+Challenges in Deep Learning from HPC Perspectives
+
+### Speaker
+
+Dr. Jiangming Jin, TuSimple
+
+
+### Abstract
+
+Topics about deep learning have been widely discussed, from academics to industries, and from infrastructures to applications. This talk explains the challenges in deep learning from HPC perspectives. With the increased computing resources required for processing deep learning workload, it is attractive to apply HPC techniques to promote the deep learning performance both in the inference and training. In the deploy and inference aspect, with the blooming of edge devices such as GPUs, FPGAs, and ASICs, it is challenging to obtain the performance gains because of the varying architecture characteristics in terms of memory organizations, compute primitives, etc. This talk explains some novel approaches that come from kernel optimization, operator optimization, and graph optimization.
+
+### Speaker Bio
+
+Dr. Jiangming Jin is the Director of HPC Department in TuSimple. He oversees the HPC R&D projects across the autonomous driving system and deep learning framework within TuSimple. Prior to join TuSimple, He worked as an HPC & Quantitative Research Engineer in JP Morgan (Singapore, Beijing). Jiangming received his bachelor?s degree from University of Electronic Science and Technology of China (UESTC) and PhD degree from Nanyang Technological University (NTU) in 2008 and 2013 accordingly. 
+
+
+
+
+
+
 
